@@ -3,10 +3,9 @@
 #import <Appboy_iOS_SDK/AppboyKit.h>
 #import <Appboy_iOS_SDK/ABKUser.h>
 #else
-#import "Appboy-iOS-SDK/AppboyKit.h"
-#import "Appboy-iOS-SDK/ABKUser.h"
+#import "AppboyKit.h"
 #endif
-#import <Analytics/SEGAnalyticsUtils.h>
+#import "SEGAnalyticsUtils.h"
 #import "SEGAppboyIntegrationFactory.h"
 
 @interface Appboy(Segment)

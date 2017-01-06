@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-#import <Analytics/SEGIntegrationFactory.h>
+#import "SEGIntegrationFactory.h"
 
 @interface SEGAppboyIntegrationFactory : NSObject<SEGIntegrationFactory>
 
